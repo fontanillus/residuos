@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Número múltiplo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <p>Haz un programa en JavaScript que reciba dos números enteros: un dividendo y un divisor. <br>El divisor ha de ser
+        un número entre 2 y 7. <br>Si no lo es, el programa deberá dar un mensaje de advertencia. <br>Si el divisor está
+        correcto, el programa deberá indicar si los números son múltiplos o no.</p>
+    <hr />
+    <h1>¿Quieres saber si un número es múltiplo?</h1>
+
+    <div>
+        <p>
+            <label for="dividendo">Introduce el primer número entero (dividendo):</label>
+            <input type="number" id="dividendo" />
+        </p>
+        <p>
+            <label for="divisor">Introduce el segundo número entero (divisor entre 2 y 7):</label>
+            <input type="number" id="divisor" />
+        </p>
+
+        <button type="button" onclick="calcular()"><b>CALCULAR</b></button>
+
+        <p id="respuesta"></p>
+
+        <img src="./img/java.png" alt="foto">
+    </div>
+    <script src="./js/multiplo.js"></script>
+</body>
+
+</html>

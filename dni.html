@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Validar DNI</title>
+    <link rel="stylesheet" href="./css/estils.css">
+</head>
+
+<body>
+    <div>
+        <form onsubmit="return false;">
+            <h1>¿Quieres saber si un DNI es válido?</h1>
+            <p>
+                <label for="dni"> Por favor teclea el DNI incluido la Letra</label>
+                <input type="text" id="dni" placeholder="Ej. 12123741Z">
+            </p>
+            <button type="button" onclick="verificarDni()">Verificar si un DNI es válido o no</button>
+            <p id="resultadoDni"></p>
+        </form>
+    </div>
+
+    <img src="./img/dni.png" alt="foto">
+    
+    <script src="./js/dni.js"></script>
+
+</body>
+
+</html>
+

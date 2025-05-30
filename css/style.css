@@ -1,0 +1,47 @@
+html {
+    background-color: lightgoldenrodyellow;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    padding: auto;
+    position: relative;
+    border: 5px solid goldenrod;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+hr {
+    border: none;
+    /* Quita el borde por defecto */
+    height: 5px;
+    /* Define el grosor */
+    background-color: goldenrod;
+    /* Define el color de la línea */
+}
+
+input {
+    border: 5px solid goldenrod;
+    background-color: lightgoldenrodyellow;
+     font-family:Arial, Helvetica, sans-serif
+}
+
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightgoldenrodyellow;
+    border: 5px solid goldenrod;
+}
+
+h1 {
+    text-shadow: 2px 2px goldenrod;
+    text-align: center;
+}
